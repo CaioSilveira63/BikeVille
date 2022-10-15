@@ -2,6 +2,11 @@ BikeVille
 
 Aplicativo desenvolvido em React Native utilizando uma biblioteca para componentes e temas do material design, apple maps para IOS, e api do google maps para android, biblioteca de camêra para leitura de códigos QR
 
+Instalação:
+
+Android: A raiz do projeto contem um arquivo BikeVille.apk pronto para ser executado no android
+IOS: Basta executar os comandos "npm install" e "npx pod-install" na raiz do projeto, abrir o arquivo BikeVille.xcworkspace dentro da pasta IOS no xcode e executar
+
 funções do mvp:
 
 - Login
