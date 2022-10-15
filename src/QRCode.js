@@ -13,11 +13,12 @@ const QRCode = ({ theme, navigation }) => {
         <Surface style={{ flex: 1 }}>
             <SafeAreaView style={{ justifyContent: 'space-between', flex: 1, padding: 10 }}>
 
-                {device != null ? <Camera
-                    style={{flex: 1}}
-                    device={device}
-                    isActive={true}
-                /> : <View />}
+                {device != null ?
+                    (<Camera
+                        style={{ flex: 1 }}
+                        device={device}
+                        isActive={true}
+                    />) : <View />}
                 <Button
                     mode="contained"
                     style={{
